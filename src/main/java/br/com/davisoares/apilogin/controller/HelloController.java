@@ -12,8 +12,8 @@ public class HelloController {
         return "Hello, World!";
     }
 
-    @GetMapping("/no")
-    public String no() {
-        return "no";
+    @GetMapping("/secured")
+    public String secured() {
+        return "you're authenticated";
     }
 }
